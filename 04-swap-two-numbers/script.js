@@ -6,9 +6,7 @@ let number2 = Number(prompt("Enter 2nd number"));
 
 alert("The data stored in variables number1 and number2 before swapping: " + number1 + " " + number2);
  
-let temporary;
-
-temporary = number1;
+let temporary = number1;
 
 number1 = number2;
 
