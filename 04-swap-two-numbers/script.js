@@ -1,13 +1,13 @@
-let number1 = 3;
-let number2 = 5;
+let box1 = 1;
+let box2 = 2;
 
-alert("The data stored in variables number1 and number2 before swapping: " + number1 + " " + number2);
 
-let temporary = number1;
+let box3 = box2;
 
-number1 = number2;
+box2 = box1;
 
-number2  = temporary;
+box1 = box3;
 
-alert("The data stored in variables number1 and number2 after swapping: " + number1 + " " + number2);
+alert(box1);
+alert(box2);
 
