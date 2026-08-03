@@ -4,4 +4,4 @@ const width = 5;
 const perimeter = 2 * (length + width);
 
 
-alert("Perimeter of the rectangle:", perimeter);
+alert("Perimeter of the rectangle:", + perimeter);

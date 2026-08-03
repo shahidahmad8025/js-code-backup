@@ -4,4 +4,4 @@ const width = 5;
 const area = length * width;
 
 
-alert("Area of the rectangle:", area);
+alert("Area of the rectangle:", + area);
