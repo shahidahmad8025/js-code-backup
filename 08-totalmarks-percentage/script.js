@@ -8,6 +8,6 @@ const totalMarks = 300;
 
 const percentage = (marksObtained / totalMarks) * 100;
 
-alert("Total Marks = " + totalMarks);
+alert("Total Marks = " + marksObtained);
 
 alert("Percentage = " + percentage + "%");
